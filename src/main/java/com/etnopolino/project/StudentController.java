@@ -31,5 +31,6 @@ public class StudentController {
     public Student addStudent(@RequestBody Student student){
         students.add(student);
         return student;
+        
     }
 }
