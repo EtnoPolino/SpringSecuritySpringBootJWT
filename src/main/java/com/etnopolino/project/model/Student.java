@@ -1,4 +1,4 @@
-package com.etnopolino.project;
+package com.etnopolino.project.model;
 
 public class Student {
     private int id;

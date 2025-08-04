@@ -1,5 +1,6 @@
-package com.etnopolino.project;
+package com.etnopolino.project.controller;
 
+import com.etnopolino.project.model.Student;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;

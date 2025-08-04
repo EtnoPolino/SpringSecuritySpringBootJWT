@@ -1,4 +1,4 @@
-package com.etnopolino.project;
+package com.etnopolino.project.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
