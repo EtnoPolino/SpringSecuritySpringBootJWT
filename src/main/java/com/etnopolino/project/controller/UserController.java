@@ -17,8 +17,10 @@ public class UserController {
 
     @PostMapping("/register")
     public Users register(@RequestBody Users user){
-        user.setPassword(encoder.encode(user.getPassword()));
-
         return service.register(user);
+    }
+    @PostMapping("/login")
+    public String login(@RequestBody Users user){
+        return service.verify(user);
     }
 }
